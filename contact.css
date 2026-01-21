@@ -1,0 +1,71 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash {
+    width: 70px;
+    height: 7px;
+    background-color: rgb(75, 75, 184);
+    border-radius: 20px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+.items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text {
+    margin: 10px;
+}
+.name {
+    margin-top: 10px;
+    height: 40px;
+    width: 250px;
+    padding: 10 15px;
+    border-radius: 9px;
+}
+.email {
+     margin-top: 10px;
+    height: 40px;
+    width: 250px;
+    padding: 10 15px;
+    border-radius: 9px;
+}
+#message {
+     margin-top: 10px;
+     min-height: 100px;
+    width: 250px;
+    padding: 10 15px;
+    border-radius: 9px;
+}
+.btn-submit {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-color: chartreuse;
+}

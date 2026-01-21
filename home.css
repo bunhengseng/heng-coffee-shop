@@ -1,0 +1,30 @@
+.container {
+       display: flex;
+       justify-content: space-between;
+       padding: 0 100px;
+       padding-top: 250px;
+}
+.left {
+    width: 450px;
+    height: 450px;
+     
+}
+.right {
+     width: 450px;
+     height: 450px;
+     
+}
+.btn {
+    padding: 9px 11px;
+    border-radius: 40px;
+}
+.btn-order-now {
+            background-color: rgb(212, 122, 212) ;
+            border: none;
+}
+.btn-contact-us {
+             background: transparent;
+}
+.bc {
+   font-family: "Playwrite DE SAS", cursive;     
+}

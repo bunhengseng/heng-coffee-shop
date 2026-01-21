@@ -1,0 +1,18 @@
+body {
+        background-color: powderblue;
+}
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+}
+
+.menu-list {
+        display: flex;
+        list-style-type: none;
+}
+
+.menu-list>li {
+        margin-right: 25px;
+}
