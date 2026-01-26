@@ -10,14 +10,21 @@ for (let i = 0; i < galleryList.length; i++) {
 galleryListElement.innerHTML = element;
 const imgViewelement = document.getElementById("img-view");
 const overayelement = document.getElementById("overlay");
+const pngElement = document.getElementsByClassName("png");
 function viewImg(img) {
   imgViewelement.innerHTML = `<img  class="img-full" src="${img}"> <spen onclick="closeImg()" class="material-icons-outlined">
   logout
   </spen>`;
   overayelement.style.display = "block";
   imgViewelement.style.display ="block";
+  for (let i = 0; i < pngElement.length; i++) {
+    pngElement[i].style.filter = "blur(6px)";
+  }
 }
 function closeImg() {
   imgViewelement.style.display ="none";
   overayelement.style.display ="none";
+  for (let i = 0; i < pngElement.length; i++) {
+    pngElement[i].style.filter = "initial";
+  }
 }

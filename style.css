@@ -16,3 +16,6 @@ body {
 .menu-list>li {
         margin-right: 25px;
 }
+a {
+  text-decoration: none;
+}
